@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        th, td {
+            border: 1px solid black;
+        }
+
+        tfoot {
+            background-color: rgb(19, 174, 221);
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table>
+        <thead>
+            <tr>
+                <th >Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>Black Friday</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>5$</td>
+                <td rowspan="2">Sim</td>
+            </tr>
+
+            <tr>
+                <td> 2</td>
+                <td>5</td>
+                <td>10$</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>15$</td>
+                <td>Não</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <td colspan="3">Total</td>
+            <td>30$</td>
+        </tfoot>
+
+
+
+    </table>
+
+
+
+
+
+</body>
+</html>
